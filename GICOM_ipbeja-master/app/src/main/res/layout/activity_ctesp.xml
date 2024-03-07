@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4EEEA"
+    tools:context=".view.loginActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewctesp"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_margin="8dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardViewctestpa"
+        app:layout_constraintEnd_toStartOf="@+id/cardViewlicen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewctesp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="São formações com duração de 2 anos, que incluem um semestre letivo de estágio numa empresa."
+            android:textAlignment="center"
+            android:layout_margin="10dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewlicen"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_margin="8dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardViewinfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardViewctesp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="São cursos de Nível 5 do Quadro Nacional de Qualificações. Conferem o Diploma de Técnico Superior Profissional"
+            android:textAlignment="center"
+            android:layout_margin="10dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewctestpa"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_margin="8dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardViewinfo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewctesp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:text="-Alunos que tenham terminado o Secundário "
+            android:textAlignment="center"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewa2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:text="Alunos que tenham formação profissional de nível secundário"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textViewa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="-Alunos com mais de 23 anos "
+            android:textAlignment="center" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewinfo"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_margin="8dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardViewctestpa"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewlicen">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="A candidatura deve ser feita online no site do IpBeja , através do portal dos Serviços Académicos II:
+https://portal.ipbeja.pt/cssnet/"
+            android:textAlignment="center"
+            android:layout_margin="10dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="20dp"
+        android:text="O que é?"
+        app:layout_constraintBottom_toTopOf="@+id/cardViewctesp"
+        app:layout_constraintEnd_toEndOf="@+id/cardViewctesp"
+        app:layout_constraintStart_toStartOf="@+id/cardViewctesp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="20dp"
+        android:text="Qualificações"
+        app:layout_constraintBottom_toTopOf="@+id/cardViewlicen"
+        app:layout_constraintEnd_toEndOf="@+id/cardViewlicen"
+        app:layout_constraintStart_toStartOf="@+id/cardViewlicen"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginBottom="20dp"
+        android:text="Quem se pode candidatar?"
+        app:layout_constraintBottom_toTopOf="@+id/cardViewctestpa"
+        app:layout_constraintEnd_toEndOf="@+id/cardViewctestpa"
+        app:layout_constraintStart_toStartOf="@+id/cardViewctestpa"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewctesp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginBottom="20dp"
+        android:text="Candidatura"
+        app:layout_constraintBottom_toTopOf="@+id/cardViewinfo"
+        app:layout_constraintEnd_toEndOf="@+id/cardViewinfo"
+        app:layout_constraintStart_toStartOf="@+id/cardViewinfo"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewlicen" />
+
+    <!-- Resto do layout -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

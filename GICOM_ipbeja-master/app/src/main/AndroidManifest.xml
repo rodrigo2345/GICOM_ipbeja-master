@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:exported="true"
+        android:roundIcon="@drawable/logo"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GICOM_ipbeja"
+        tools:targetApi="31">
+        <activity
+            android:name=".About.Mestrado"
+            android:exported="false" />
+        <activity
+            android:name=".About.Licenciatura"
+            android:exported="false" />
+        <activity
+            android:name=".About.CTeSP"
+            android:exported="false" />
+        <activity
+            android:name=".view.IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityShare"
+            android:exported="false" />
+        <activity
+            android:name=".view.loginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.registerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.apoioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.PesquisaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.SobreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Agronomia"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Agropecuaria_Mediterranica"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Analises_Laboratoriais"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Apoio_Cuidados_Continuados_Integrados"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Apoio_Infancia"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Audiovisual_Multimedia"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Ciência_Tecnologias_dos_Alimentos"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Comercio_Internacional"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Culturas_Regadas"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Desporto"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Desporto_Lazer_Bem_Estar"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Educacao_Basica"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Eletronica_Computadores"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Enfermagem"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Engenharia_Alimentar"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Engenharia_Ambiente"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Engenharia_Informatica"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Gestao_de_Empresas_Pos"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Gestao_Empresas"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Gestao_Organizacoes_Sociais"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Informacao_Comercializacao_Turistica"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Olivicultura_Azeite_Azeitona_Mesa"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Psicogerontologia"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Redes_Sistemas_Informaticos"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Servico_Social"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Sistemas_Protecao_Ambiente"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Solicitadoria"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Solicitadoria_Distancia"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Som_Imagem"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Tecnologia_Inovacao_Alimentar"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Tecnologias_Agroambientais_Sustentabilidade"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Tecnologias_Bionaliticas"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Tecnologias_para_Gestao_Qualidade_Seguranca"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Tecnologias_Web_Dispositivos_Moveis"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Terapia_Ocupacional"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Turismo"
+            android:exported="false" />
+        <activity
+            android:name=".cursos.activity_Viticultura_Enologia"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

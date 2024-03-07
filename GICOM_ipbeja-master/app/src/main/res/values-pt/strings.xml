@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IPBeCourses</string>
+    <string name="Gicom_courses">Pesquisa de cursos</string>
+    <string name="Ipbeja_name">IPBeCourses</string>
+    <string name="Ipbeja_button">Iniciar</string>
+    <string name="Login">Iniciar Sessão</string>
+    <string name="Username">Nome de usuário</string>
+    <string name="Password">Senha</string>
+    <string name="Login_button">Conecte-se</string>
+    <string name="Dont">Não tem uma conta?\n registe-se aqui</string>
+    <string name="SignUp">Registo</string>
+    <string name="Name_complet">Nome Completo</string>
+    <string name="Email">Email</string>
+    <string name="District">Distrito</string>
+    <string name="Username_register">Nome de usuário</string>
+    <string name="Password_register">Senha</string>
+    <string name="SignUp_register">Registe-se</string>
+    <string name="Already_Sign">Já se registou?\nFaça login aqui</string>
+    <string name="School">Escola</string>
+    <string name="Course_search">Pesquise pela 1ª vez</string>
+    <string name="Enjoy_10">E aproveite 10% de desconto nas propinas futuras!</string>
+    <string name="All_IPbeja">Tudo sobre IPBeCourses</string>
+    <string name="Share_app">Partilhe a app com os seus amigos</string>
+    <string name="IPbeja_since">apresentamos  cursos agradáveis desde 2024.</string>
+    <string name="Ipbeja_more">Saiba mais</string>
+    <string name="Home">Casa</string>
+    <string name="Search">Pesquisa</string>
+    <string name="Profile">Perfil</string>
+    <string name="Support">Apoio</string>
+    <string name="Sharing">Partilha</string>
+    <string name="Logout">Sair</string>
+    <string name="Search_courses">Procure um curso</string>
+    <string name="Details_Price">Detalhes sobre o curso</string>
+    <string name="Location_Contact">localização</string>
+    <string name="Update">Update</string>
+    <string name="More">O nome da empresa que \ncoordena esta aplicação chama-se IPBeCourses desde 2024,o Instituto Politécnico de Beja é uma instituição de ensino superior pública, constituída por quatro escolas. Está localizado na cidade de Beja,Foi criado em 1979. </string>
+    <string name="About">Sobre</string>
+    <string name="CTeSP">Cursos Técnicos Superiores Profissionais</string>
+    <string name="Licenciaturas">Licenciaturas</string>
+    <string name="Mestrados">Mestrados</string>
+</resources>
